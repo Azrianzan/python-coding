@@ -1,6 +1,5 @@
 #Rock, Paper, Scissors game with Python
 import random
-import time
 
 gameOver = False
 rpsList = ["rock", "paper", "scissors"]
@@ -34,7 +33,7 @@ while not gameOver:
         print("Please choose the provided option correctly")
 
     if playerInput == "a" and compInput == "rock":
-        print("The tide is even!")
+        print("DRAW!!")
     elif playerInput == "a" and compInput == "paper":
         print("Computer Win!!")
         compScore += 1
@@ -45,7 +44,7 @@ while not gameOver:
         print("You win!!")
         PlayerScore += 1
     elif playerInput == "b" and compInput == "paper":
-        print("The tide is even!")
+        print("DRAW!!")
     elif playerInput == "b" and compInput == "scissors":
         print("Computer win!!")
         compScore += 1
@@ -56,7 +55,7 @@ while not gameOver:
         print("You win!!")
         PlayerScore += 1
     elif playerInput == "c" and compInput == "scissors":
-        print("The tide is even!")
+        print("DRAW!!")
 
     print("-" * 60)
     print(f"Your score : {PlayerScore}")
