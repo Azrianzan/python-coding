@@ -1,4 +1,6 @@
 #This tool is going to be similar to http probe
+#This tool can test a list of url to see if those URL is actually alive
+#I copy this code from PhD Security
 import sys
 import requests
 
